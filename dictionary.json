@@ -6,7 +6,8 @@
         "Tahun Terbit": 1981,
         "tag": [
             "Sains"
-        ]
+        ],
+        "Image":"https://upload.wikimedia.org/wikipedia/en/2/28/The_soul_of_a_new_machine_--_book_cover.jpg"
     },
     {
         "Judul": "Algorithms to Live By: The Computer Science of Human Decisions",
@@ -16,7 +17,8 @@
         "tag": [
             "Sains",
             "Pendidikan"
-        ]
+        ],
+        "Image":"https://m.media-amazon.com/images/I/71EvACRh1cL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         "Judul": "Hackers: Heroes of the Computer Revolution",
@@ -25,7 +27,8 @@
         "Tahun Terbit": 1984,
         "tag": [
             "Pendidikan"
-        ]
+        ],
+        "Image":"https://m.media-amazon.com/images/I/91JTO5QC9vL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         "Judul": "Jago Komputer",
@@ -35,7 +38,8 @@
         "tag": [
             "Gadget",
             "Pendidikan"
-        ]
+        ],
+        "Image":"https://elibrary.bsi.ac.id/assets/images/buku/202664.jpg"
     },
     {
         "Judul": "Introduction to Algorithms",
@@ -45,7 +49,8 @@
         "tag": [
             "Sains",
             "Pendidikan"
-        ]
+        ],
+        "Image":"https://img1.od-cdn.com/ImageType-400/0111-1/5A4/4A5/DB/%7B5A44A5DB-D913-40FF-B59F-2EBD4D1CBD32%7DImg400.jpg"
     },
     {
         "Judul": "Computer Architecture: A Quantitative Approach",
@@ -55,7 +60,8 @@
         "tag": [
             "Sains",
             "Pendidikan"
-        ]
+        ],
+        "Image":"https://m.media-amazon.com/images/I/71zrCDfb73S._AC_UF1000,1000_QL80_.jpg"
     },
     {
         "Judul": "Discrete Mathematics and Its Applications",
@@ -65,7 +71,8 @@
         "tag": [
             "Sains",
             "Pendidikan"
-        ]
+        ],
+        "Image":"https://openlibrary.telkomuniversity.ac.id/uploads/book/cover/20.01.634.jpg"
     },
     {
         "Judul": "The Practical SQL Handbook: Using SQL Variants",
@@ -74,7 +81,8 @@
         "Tahun Terbit": 2001,
         "tag": [
             "Pendidikan"
-        ]
+        ],
+        "Image":"https://m.media-amazon.com/images/I/81ddPyxabEL._AC_UF1000,1000_QL80_.jpg"
     },
     {
         "Judul": "The C++ Programming Language",
@@ -84,6 +92,7 @@
         "tag": [
             "Sains",
             "Pendidikan"
-        ]
+        ],
+        "Image":"https://m.media-amazon.com/images/I/71ETsGj0-PL._AC_UF1000,1000_QL80_.jpg"
     }
 ]

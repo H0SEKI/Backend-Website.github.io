@@ -1,3 +1,4 @@
+Live Web : https://h0seki.github.io/PemulaJs.github.io/
+
 Rules :
-1. Semua bebas pakai
-2. Kalau ada ide silahkan bicarakan, kalau sudah cocok langsung edit dan letakkan di github.
+- Perubahan ialah di push ke website melalui code editor masing"

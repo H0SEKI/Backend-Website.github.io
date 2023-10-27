@@ -1,0 +1,23 @@
+{
+  "name": "project-web-back-end",
+  "version": "1.0.0",
+  "description": "Tugas Akhir UTS Backend Dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HOSEKI/Project-Web-Back-End.git"
+  },
+  "author": "Pemula.js",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HOSEKI/Project-Web-Back-End/issues"
+  },
+  "homepage": "https://github.com/HOSEKI/Project-Web-Back-End#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

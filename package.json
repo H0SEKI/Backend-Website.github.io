@@ -1,0 +1,25 @@
+{
+  "name": "pemulajs",
+  "version": "1.0.0",
+  "description": "Pengerjaan Tugas Project Kelompok Mata Kuliah Pengembangan Web-Back End",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H0SEKI/PemulaJs.github.io.git"
+  },
+  "author": "pemulajs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H0SEKI/PemulaJs.github.io/issues"
+  },
+  "homepage": "https://github.com/H0SEKI/PemulaJs.github.io#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

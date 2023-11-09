@@ -9,24 +9,24 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,600,0,0"
     />
-    <title>Register Page</title>
+    <title>Login Page</title>
   </head>
 
   <body>
     <div class="login-card-container">
       <div class="login-card">
         <div class="login-card-logo">
-          <img src="img/logoku.png" alt="logo" />
+          <img src="logoku.png" alt="logo" />
         </div>
         <div class="login-card-header">
-          <h1>Sign Up</h1>
-          <div>Please Sign Up to use the platform</div>
+          <h1>Sign In</h1>
+          <div>Please login to use the platform</div>
         </div>
         <form class="login-card-form">
           <div class="form-item">
             <span class="form-item-icon material-symbols-rounded">mail</span>
             <input
-              type="text"
+              type="email"
               placeholder="Enter Email"
               id="emailForm"
               autofocus
@@ -42,31 +42,25 @@
               required
             />
           </div>
-          <div class="form-item">
-            <span class="form-item-icon material-symbols-rounded">lock</span>
-            <input
-              type="password"
-              placeholder="Confirm Password"
-              id="passwordForm"
-              required
-            />
-          </div>
           <div class="form-item-other">
             <div class="checkbox">
               <input type="checkbox" id="rememberMeCheckbox" checked />
               <label for="rememberMeCheckbox">Remember me</label>
             </div>
+            <a href="#">I forgot my password!</a>
           </div>
-          <button type="submit">Sign Up</button>
+          <form action="index.html" method="get" target="_blank">
+            <button type="submit">Sign In</button>
+          </form>
         </form>
         <div class="login-card-footer">
-          Already have an account? <a href="/login">Login to your account.</a>
+          Don't have an account? <a href="/register">Create a free account.</a>
         </div>
       </div>
       <div class="login-card-social">
-        <div>Other Sign-Up Options</div>
+        <div>Other Sign-In Options</div>
         <div class="login-card-social-btns">
-          <a href="#">
+          <a href="https://www.facebook.com/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-brand-facebook"
@@ -85,7 +79,7 @@
               ></path>
             </svg>
           </a>
-          <a href="#">
+          <a href="https://www.google.com/" target="blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-brand-google"

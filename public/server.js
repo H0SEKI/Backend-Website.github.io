@@ -12,23 +12,21 @@ const port = 5000;
 // Serve static files (like CSS) from the "public" directory
 app.use(express.static(_dirname + "/public"));
 
-// Sample JSON API endpoint
-app.get("/api/data", (req, res) => {
-  const jsonData = { message: "Hello, this is your API data!" };
-  res.json(jsonData);
-});
-
 app.get("/", (req, res) => {
-  res.sendFile(_dirname + "/index.html");
+  res.statusCode = 200;
+  res.sendFile(_dirname + "/public/index.html");
 });
 app.get("/bookmark", (req, res) => {
-  res.sendFile(_dirname + "/bookmark.html");
+  res.statusCode = 200;
+  res.sendFile(_dirname + "/public/bookmark.html");
 });
 app.get("/login", (req, res) => {
-  res.sendFile(_dirname + "/login.html");
+  res.statusCode = 200;
+  res.sendFile(_dirname + "/public/login.html");
 });
 app.get("/register", (req, res) => {
-  res.sendFile(_dirname + "/register.html");
+  res.statusCode = 200;
+  res.sendFile(_dirname + "/public/register.html");
 });
 
 app.listen(port, () => {

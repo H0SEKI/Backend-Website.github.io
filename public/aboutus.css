@@ -1,0 +1,61 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.box-table {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.aboutus {
+  margin: 3rem 1rem;
+}
+.aboutus h1 {
+  font-family: "Merriweather", serif;
+  font-weight: bolder;
+  color: #195682;
+}
+
+.aboutus h1 span {
+  color: chocolate;
+}
+
+.aboutus .anggota {
+  text-align: left;
+  margin: 4rem 6rem 0 6rem;
+}
+
+.box-profile-all {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.box-profile img {
+  width: 300px;
+  margin: 1rem;
+}
+
+.box-profile-all .box-profile {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 3.5rem 5rem 3.5rem;
+}
+
+.box-profile .profile {
+  margin: 0rem 1rem 1rem 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutus .anggota {
+    margin: 2rem 1rem 0 1rem;
+  }
+
+  .box-profile-all .box-profile {
+    margin: 0 0.5rem 1rem 0.5rem;
+  }
+}

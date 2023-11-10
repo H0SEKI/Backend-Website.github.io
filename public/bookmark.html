@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <!-- My Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!-- My Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bona+Nova&family=Fjalla+One&family=Ibarra+Real+Nova:wght@500&family=Merriweather:wght@300;400;700&family=Poppins&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- My Style -->
+    <link rel="stylesheet" type="text/css" href="aboutus.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -20,8 +30,18 @@
     <header>
       <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/"><img style="width: 70px" src="logoku.png" alt="Your Logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="/"
+            ><img style="width: 70px" src="logoku.png" alt="Your Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,40 +50,178 @@
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/bookmark">Bookmark</a>
+                <a class="nav-link" href="/bookmark">About Us</a>
               </li>
             </ul>
             <button
-                type="button"
-                class="btn btn-primary my-2"
-                data-bs-toggle="modal"
-                data-bs-target="#profileModal"
-              >
-                <img src="profile.png" alt="Profile Icon" style="width: 30px; height: 30px; border-radius: 50%;">
-              </button>
+              type="button"
+              class="btn btn-primary my-2"
+              data-bs-toggle="modal"
+              data-bs-target="#profileModal"
+            >
+              <img
+                src="profile.png"
+                alt="Profile Icon"
+                style="width: 30px; height: 30px; border-radius: 50%"
+              />
+            </button>
           </div>
         </div>
       </nav>
-      <div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+      <div
+        class="modal fade"
+        id="profileModal"
+        tabindex="-1"
+        aria-labelledby="profileModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" style="text-align: center">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="profileModalLabel" style="font-size: 24px">Profile Options</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h5
+                class="modal-title"
+                id="profileModalLabel"
+                style="font-size: 24px"
+              >
+                Profile Options
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
             </div>
             <div class="modal-body">
-              <a href="/login" type="button" class="btn btn-primary my-2" style="font-size: 18px">LOGIN</a>
-              <a href="/register" type="button" class="btn btn-primary my-2" style="font-size: 18px">REGISTER</a>
+              <a
+                href="/login"
+                type="button"
+                class="btn btn-primary my-2"
+                style="font-size: 18px"
+                >LOGIN</a
+              >
+              <a
+                href="/register"
+                type="button"
+                class="btn btn-primary my-2"
+                style="font-size: 18px"
+                >REGISTER</a
+              >
             </div>
           </div>
         </div>
       </div>
     </header>
+    <main>
+      <div class="box-table">
+        <div class="aboutus">
+          <h1>ABOUT <span>US</span></h1>
+          <br />
+          <p class="hai">
+            HAI..
+            <br />
+            <span class="aboutus-kel7">Kami dari</span>
+            <span class="kel7">Kelompok 7</span><br />
+            <span class="aboutus-desc">
+              Ini adalah project Tugas Akhir sebelum UTS dari kami,
+              <br />berikut dibawah ialah profile dari anggota" kami</span
+            >
+          </p>
+          <h1 class="anggota"><b>Anggota</b></h1>
+        </div>
+        <div class="box-profile-all">
+          <div class="box-profile">
+            <img src="bryant.jpeg" />
+            <div class="profile">
+              <p>Nama : Bryant Alfonso</p>
+              <p>Nim : 221112695</p>
+            </div>
+          </div>
+          <div class="box-profile">
+            <img src="parid.jpeg" />
+            <div class="profile">
+              <p>Nama : Farid Zahran</p>
+              <p>Nim : 221112695</p>
+            </div>
+          </div>
+          <div class="box-profile">
+            <img src="gideon.jpeg" />
+            <div class="profile">
+              <p>Nama : Gideon Rumbling</p>
+              <p>Nim : 221112695</p>
+            </div>
+          </div>
+          <div class="box-profile">
+            <img src="baut.jpeg" />
+            <div class="profile">
+              <p>Nama : Witus Baut</p>
+              <p>Nim : 221112695</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-  <main>
-
-  </main>
-
-  
+    <!-- Footer -->
+    <footer class="text-black" style="background-color: #e3f2fd">
+      <div class="container-fluid p-5">
+        <div
+          class="row"
+          style="
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+          "
+        >
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Tentang Kami</h5>
+            <br />
+            <p>
+              Kelompok 7 dari kelas IF-B Pagi
+              <br />
+              - Bryant Alfonso<br />
+              - Farid Zahran<br />
+              - Gideon Randy<br />
+              - Witus Firman
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Link</h5>
+            <br />
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="/" class="text-black">Home</a>
+              </li>
+              <li>
+                <a href="/bookmark" class="text-black">Bookmark</a>
+              </li>
+              <li>
+                <a href="#" class="text-black">Kontak</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Hubungi Kami</h5>
+            <br />
+            <ul class="list-unstyled mb-0">
+              <li>
+                <p>Alamat perusahaan, kota, negara, dll.</p>
+              </li>
+              <li>
+                <a href="mailto:farzan.clash2004@gmail.com"
+                  >farzan.clash2004@gmail.com</a
+                >
+              </li>
+              <li>
+                <p>Telepon: +123456789</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: #8bc8f3">
+        <p class="mb-0">&copy; 2023 Nama Perusahaan. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>

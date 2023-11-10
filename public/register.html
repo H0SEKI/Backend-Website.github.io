@@ -22,7 +22,7 @@
           <h1>Sign Up</h1>
           <div>Please Sign Up to use the platform</div>
         </div>
-        <form class="login-card-form">
+        <form class="login-card-form" id="form" action="index.html" method="get">
           <div class="form-item">
             <span class="form-item-icon material-symbols-rounded">mail</span>
             <input
@@ -57,7 +57,7 @@
               <label for="rememberMeCheckbox">Remember me</label>
             </div>
           </div>
-          <button href="/">Sign Up</button>
+          <button type="submit" onclick="maukehome()">Sign Up</button>
         </form>
         <div class="login-card-footer">
           Already have an account? <a href="/login">Login to your account.</a>
@@ -106,4 +106,5 @@
       </div>
     </div>
   </body>
+  <script src="validlogin.js"></script>
 </html>

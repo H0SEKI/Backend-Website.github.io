@@ -35,4 +35,3 @@ fetch('dictionary.json')
   .catch(error => {
     console.error('Terjadi kesalahan:', error);
   });
-

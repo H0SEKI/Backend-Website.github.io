@@ -1,5 +1,6 @@
 [
   {
+    "kode": 1,
     "Judul": "The Soul of a New Machine",
     "Penulis": "Tracy Kiddere",
     "Deskripsi": "It chronicles the experiences of a computer engineering team racing to design a next-generation computer at a blistering pace under tremendous pressure.",
@@ -8,6 +9,7 @@
     "Image": "https://upload.wikimedia.org/wikipedia/en/2/28/The_soul_of_a_new_machine_--_book_cover.jpg"
   },
   {
+    "kode": 2,
     "Judul": "Algorithms to Live By: The Computer Science of Human Decisions",
     "Penulis": "Brian Christian, Tom Griffiths, Thomas L. Griffiths",
     "Deskripsi": "Algorithms to Live By by Brian Christian and Tom Griffiths is an immersive look at the history and development of several algorithms used to solve computer science problems. ",
@@ -16,6 +18,7 @@
     "Image": "https://m.media-amazon.com/images/I/71EvACRh1cL._AC_UF1000,1000_QL80_.jpg"
   },
   {
+    "kode": 3,
     "Judul": "Hackers: Heroes of the Computer Revolution",
     "Penulis": "Steven Levy",
     "Deskripsi": "Summary. Levy traces developments in the history of hacking, beginning with The Tech Model Railroad Club at MIT, whose members were among the first hackers.",
@@ -24,6 +27,7 @@
     "Image": "https://m.media-amazon.com/images/I/91JTO5QC9vL._AC_UF1000,1000_QL80_.jpg"
   },
   {
+    "kode": 4,
     "Judul": "Jago Komputer",
     "Penulis": "Firman",
     "Deskripsi": "Disini kita akan menjelaskan cara membuat website dan coding",
@@ -32,6 +36,7 @@
     "Image": "https://elibrary.bsi.ac.id/assets/images/buku/202664.jpg"
   },
   {
+    "kode": 5,
     "Judul": "Introduction to Algorithms",
     "Penulis": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein",
     "Deskripsi": "Disini kita akan menjelaskan cara membuat website dan coding",
@@ -40,6 +45,7 @@
     "Image": "https://img1.od-cdn.com/ImageType-400/0111-1/5A4/4A5/DB/%7B5A44A5DB-D913-40FF-B59F-2EBD4D1CBD32%7DImg400.jpg"
   },
   {
+    "kode": 6,
     "Judul": "Computer Architecture: A Quantitative Approach",
     "Penulis": "John L. Hennessy, David A Patterson",
     "Deskripsi": "explores the ways that software and technology in the cloud are accessed by digital media, such as cell phones, computers, tablets, and other mobile devices.",
@@ -48,6 +54,7 @@
     "Image": "https://m.media-amazon.com/images/I/71zrCDfb73S._AC_UF1000,1000_QL80_.jpg"
   },
   {
+    "kode": 7,
     "Judul": "Discrete Mathematics and Its Applications",
     "Penulis": "Kenneth H. Rosen",
     "Deskripsi": "The branch of mathematics handling objects that only considers distinct, separated values.",
@@ -56,6 +63,7 @@
     "Image": "https://openlibrary.telkomuniversity.ac.id/uploads/book/cover/20.01.634.jpg"
   },
   {
+    "kode": 8,
     "Judul": "The Practical SQL Handbook: Using SQL Variants",
     "Penulis": "Sandra L Emerson",
     "Deskripsi": "begins with a step-by-step introduction to SQL basics and examines the issues involved in designing SQL-based database applications.",
@@ -64,6 +72,7 @@
     "Image": "https://m.media-amazon.com/images/I/81ddPyxabEL._AC_UF1000,1000_QL80_.jpg"
   },
   {
+    "kode": 9,
     "Judul": "The C++ Programming Language",
     "Penulis": "Bjarne Stroustrup",
     "Deskripsi": "C++ (or “C-plus-plus”) is a generic programming language for building software. It's an object-oriented language. In other words, it emphasizes using data fields with unique attributes (a.k.a. objects) rather than logic or functions. A common example of an object is a user account on a website.",

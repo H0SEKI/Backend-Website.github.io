@@ -3,15 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="bookmark.css" />
+    <title>Home</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -19,43 +17,53 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/" style="padding-left: 30px"
-          ><img style="width: 70px" src="logoku.png" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul
-            class="navbar-nav me-auto mb-2 mb-lg-0"
-            style="margin-left: 45rem"
-          >
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/bookmark">Bookmark</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <div class="logreg">
-            <button type="button"><a href="/login">LOGIN</a></button>
-            <button type="button"><a href="/register">REGISTER</a></button>
+    <header>
+      <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"><img style="width: 70px" src="logoku.png" alt="Your Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/bookmark">Bookmark</a>
+              </li>
+            </ul>
+            <button
+                type="button"
+                class="btn btn-primary my-2"
+                data-bs-toggle="modal"
+                data-bs-target="#profileModal"
+              >
+                <img src="profile.png" alt="Profile Icon" style="width: 30px; height: 30px; border-radius: 50%;">
+              </button>
+          </div>
+        </div>
+      </nav>
+      <div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="profileModalLabel" style="font-size: 24px">Profile Options</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <a href="/login" type="button" class="btn btn-primary my-2" style="font-size: 18px">LOGIN</a>
+              <a href="/register" type="button" class="btn btn-primary my-2" style="font-size: 18px">REGISTER</a>
+            </div>
           </div>
         </div>
       </div>
-    </nav>
+    </header>
+
+  <main>
+
+  </main>
+
+  
   </body>
 </html>

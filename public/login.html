@@ -22,7 +22,7 @@
           <h1>Sign In</h1>
           <div>Please login to use the platform</div>
         </div>
-        <form class="login-card-form">
+        <form class="login-card-form" id="form" action="index.html" method="get">
           <div class="form-item">
             <span class="form-item-icon material-symbols-rounded">mail</span>
             <input
@@ -50,7 +50,7 @@
             <a href="#">I forgot my password!</a>
           </div>
           <form action="/" method="get">
-            <button type="submit">Sign In</button>
+            <button type="submit" onclick="maukehome()">Sign In</button>
           </form>
         </form>
         <div class="login-card-footer">
@@ -100,4 +100,5 @@
       </div>
     </div>
   </body>
+  <script src="validlogin.js"></script>
 </html>

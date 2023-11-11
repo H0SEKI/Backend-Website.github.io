@@ -7,7 +7,7 @@ body {
 }
 
 .aboutus {
-  margin: 3rem 1rem;
+  margin: 3rem 7rem;
 }
 
 .aboutus h1 {
@@ -21,7 +21,6 @@ body {
 
 .aboutus .anggota {
   text-align: left;
-  margin: 0 6rem;
 }
 
 .box-profile-all {
@@ -49,6 +48,34 @@ body {
   justify-content: center;
 }
 
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: scroll;
+}
+
+.close-cart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+#cartItemsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px -120px 10px 10px;
+}
 @media screen and (max-width: 600px) {
   .aboutus .anggota {
     margin: 2rem 1rem 0 1rem;
@@ -56,5 +83,21 @@ body {
 
   .box-profile-all .box-profile {
     margin: 0 0.5rem 1rem 0.5rem;
+  }
+  .aboutus {
+    margin: 2rem 1rem; /* Adjust margin for smaller screens */
+  }
+
+  .aboutus h1 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .anggota {
+    text-align: center; /* Center align for smaller screens */
+    margin-top: 1rem; /* Adjust top margin for smaller screens */
+  }
+
+  .box-profile-all .box-profile {
+    margin: 0.5rem; /* Adjust margin for smaller screens */
   }
 }

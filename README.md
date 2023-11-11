@@ -1,6 +1,14 @@
 # PemulaJs.github.io
 
-Pengerjaan Tugas Project Kelompok Mata Kuliah Pengembangan Web-Back End
+Kelompok 7 :
 
-Live Web :
-https://h0seki.github.io/PemulaJs.github.io/
+- Bryant Alfronso Purba
+- Farid Zahran
+- Gideon Riandy Martssy
+- Witus Firman Selamat Bate'e
+
+Pengerjaan Tugas Project Kelompok Sebelum UTS
+Mata Kuliah : Pengembangan Web-Back End
+
+<!-- Laporan / Penjelasan -->
+<!--  -->

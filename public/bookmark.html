@@ -52,12 +52,31 @@
               <li class="nav-item">
                 <a class="nav-link" href="/bookmark">About Us</a>
               </li>
+              <li class="nav-icons">
+                <!-- <a class="nav-link" href="/bookmark">Bookmark</a> -->
+                <div class="nav-link" onclick="toggleCart()">Bookmark</div>
+
+                <!-- Tambahkan tombol untuk menghapus item di dalam cartOverlay -->
+                <div class="cart-overlay" id="cartOverlay">
+                  <div class="cart-items" id="cartItemsContainer">
+                    <!-- Tambahkan tombol untuk keluar dari cartOverlay -->
+                    <!-- <span class="close-cart" onclick="toggleCart()">X</span> -->
+                    <!-- Tambahkan container untuk item-item di dalam cartOverlay -->
+                    <!-- <div id="cartItemsContainer"></div> -->
+                    <!-- Tambahkan tombol untuk keluar dari cartOverlay -->
+                    <button class="close-cart" onclick="exitCart()">
+                      Exit
+                    </button>
+                  </div>
+                </div>
+              </li>
             </ul>
             <button
               type="button"
               class="btn btn-primary my-2"
               data-bs-toggle="modal"
               data-bs-target="#profileModal"
+              style="background-color: #f38120"
             >
               <img
                 src="profile.png"
@@ -221,5 +240,8 @@
         <p class="mb-0">&copy; 2023 Nama Perusahaan. All rights reserved.</p>
       </div>
     </footer>
+    <script src="script.js"></script>
+    <script src="responsive.js"></script>
+    <script src="search.js"></script>
   </body>
 </html>

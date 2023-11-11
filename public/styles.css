@@ -15,7 +15,9 @@ body {
   color: chocolate;
 }
 
-/* Footer */
+.close-cart {
+  background-color: #195682;
+}
 
 .nav-icons {
   display: flex;
@@ -53,6 +55,6 @@ body {
 
 .col {
   /* Add your styles for each book item here */
-  border: 1px solid #ddd;
+  border: none;
   padding: 10px;
 }

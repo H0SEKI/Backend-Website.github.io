@@ -3,6 +3,11 @@ body {
   text-align: justify;
 }
 
+.home-page {
+  color: black;
+  font-weight: bolder;
+}
+
 .btn btn-primary my-2 {
   color: chocolate;
 }

@@ -2,6 +2,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.aboutus-page {
+  color: black;
+  font-weight: bolder;
+}
+
 .box-table {
   text-align: center;
 }

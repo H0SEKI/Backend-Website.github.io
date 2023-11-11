@@ -3,12 +3,11 @@ body {
 }
 
 .box-table {
-  border: 1px solid black;
   text-align: center;
 }
 
 .aboutus {
-  margin: 3rem 1rem;
+  margin: 5rem 1rem;
 }
 .aboutus h1 {
   font-weight: bolder;
@@ -21,7 +20,7 @@ body {
 
 .aboutus .anggota {
   text-align: left;
-  margin: 4rem 6rem 0 6rem;
+  margin: 0 6rem;
 }
 
 .box-profile-all {
@@ -38,7 +37,7 @@ body {
 }
 
 .box-profile-all .box-profile {
-  border: 1px solid black;
+  border: 1px solid chocolate;
   text-align: center;
   margin: 0 3.5rem 5rem 3.5rem;
 }

@@ -1,20 +1,14 @@
 [
   {
-    "kode": 1,
-    "Judul": "The Soul of a New Machine",
-    "Penulis": "Tracy Kiddere",
-    "Deskripsi": "It chronicles the experiences of a computer engineering team racing to design a next-generation computer at a blistering pace under tremendous pressure.",
-    "Tahun Terbit": 1981,
-    "tag": ["Sains"],
-    "Image": "https://upload.wikimedia.org/wikipedia/en/2/28/The_soul_of_a_new_machine_--_book_cover.jpg"
-  },
-  {
     "kode": 2,
     "Judul": "Algorithms to Live By: The Computer Science of Human Decisions",
     "Penulis": "Brian Christian, Tom Griffiths, Thomas L. Griffiths",
     "Deskripsi": "Algorithms to Live By by Brian Christian and Tom Griffiths is an immersive look at the history and development of several algorithms used to solve computer science problems. ",
     "Tahun Terbit": 2016,
-    "tag": ["Sains", "Pendidikan"],
+    "tag": [
+      "Sains",
+      "Pendidikan"
+    ],
     "Image": "https://m.media-amazon.com/images/I/71EvACRh1cL._AC_UF1000,1000_QL80_.jpg"
   },
   {
@@ -23,7 +17,9 @@
     "Penulis": "Steven Levy",
     "Deskripsi": "Summary. Levy traces developments in the history of hacking, beginning with The Tech Model Railroad Club at MIT, whose members were among the first hackers.",
     "Tahun Terbit": 1984,
-    "tag": ["Pendidikan"],
+    "tag": [
+      "Pendidikan"
+    ],
     "Image": "https://m.media-amazon.com/images/I/91JTO5QC9vL._AC_UF1000,1000_QL80_.jpg"
   },
   {
@@ -32,7 +28,10 @@
     "Penulis": "Firman",
     "Deskripsi": "Disini kita akan menjelaskan cara membuat website dan coding",
     "Tahun Terbit": 2018,
-    "tag": ["Gadget", "Pendidikan"],
+    "tag": [
+      "Gadget",
+      "Pendidikan"
+    ],
     "Image": "https://elibrary.bsi.ac.id/assets/images/buku/202664.jpg"
   },
   {
@@ -41,7 +40,10 @@
     "Penulis": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein",
     "Deskripsi": "Disini kita akan menjelaskan cara membuat website dan coding",
     "Tahun Terbit": 1989,
-    "tag": ["Sains", "Pendidikan"],
+    "tag": [
+      "Sains",
+      "Pendidikan"
+    ],
     "Image": "https://img1.od-cdn.com/ImageType-400/0111-1/5A4/4A5/DB/%7B5A44A5DB-D913-40FF-B59F-2EBD4D1CBD32%7DImg400.jpg"
   },
   {
@@ -50,7 +52,10 @@
     "Penulis": "John L. Hennessy, David A Patterson",
     "Deskripsi": "explores the ways that software and technology in the cloud are accessed by digital media, such as cell phones, computers, tablets, and other mobile devices.",
     "Tahun Terbit": 1992,
-    "tag": ["Sains", "Pendidikan"],
+    "tag": [
+      "Sains",
+      "Pendidikan"
+    ],
     "Image": "https://m.media-amazon.com/images/I/71zrCDfb73S._AC_UF1000,1000_QL80_.jpg"
   },
   {
@@ -59,7 +64,10 @@
     "Penulis": "Kenneth H. Rosen",
     "Deskripsi": "The branch of mathematics handling objects that only considers distinct, separated values.",
     "Tahun Terbit": 2011,
-    "tag": ["Sains", "Pendidikan"],
+    "tag": [
+      "Sains",
+      "Pendidikan"
+    ],
     "Image": "https://openlibrary.telkomuniversity.ac.id/uploads/book/cover/20.01.634.jpg"
   },
   {
@@ -68,7 +76,9 @@
     "Penulis": "Sandra L Emerson",
     "Deskripsi": "begins with a step-by-step introduction to SQL basics and examines the issues involved in designing SQL-based database applications.",
     "Tahun Terbit": 2001,
-    "tag": ["Pendidikan"],
+    "tag": [
+      "Pendidikan"
+    ],
     "Image": "https://m.media-amazon.com/images/I/81ddPyxabEL._AC_UF1000,1000_QL80_.jpg"
   },
   {
@@ -77,7 +87,10 @@
     "Penulis": "Bjarne Stroustrup",
     "Deskripsi": "C++ (or “C-plus-plus”) is a generic programming language for building software. It's an object-oriented language. In other words, it emphasizes using data fields with unique attributes (a.k.a. objects) rather than logic or functions. A common example of an object is a user account on a website.",
     "Tahun Terbit": 2013,
-    "tag": ["Sains", "Pendidikan"],
+    "tag": [
+      "Sains",
+      "Pendidikan"
+    ],
     "Image": "https://m.media-amazon.com/images/I/71ETsGj0-PL._AC_UF1000,1000_QL80_.jpg"
   }
 ]

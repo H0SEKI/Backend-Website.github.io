@@ -3,6 +3,10 @@ body {
   text-align: justify;
 }
 
+.btn btn-primary my-2 {
+  color: chocolate;
+}
+
 .fw-light {
   color: #195682;
 }
